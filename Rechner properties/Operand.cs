@@ -6,7 +6,6 @@ namespace Rechner_properties
     {
         public static double Nummer(string type, string index)
         {
-
             Console.Write($"Bitte geben Sie die {index} {type} ein: ");
             return Convert.ToDouble(Console.ReadLine());
         }
